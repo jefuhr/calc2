@@ -1,4 +1,4 @@
-from calc2.calculations.calculation import Calculation
+from calculator.calculations.calculation import Calculation
 
 class Multiplication(Calculation):
 
