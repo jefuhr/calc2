@@ -1,9 +1,10 @@
-from calculator.calculations.multiplication import multiplcation
+from calculator.calculations.multiplication import Multiplication
+
 
 def test_calculation_multiplication():
     #Arrange
     mynumbers = (1.0,2.0)
-    addition = Multiplication(mynumbers)
+    multiplication = Multiplication(mynumbers)
     #Act
     #Assert
-    assert addition.get_result() == 3.0
+    assert multiplication.get_result() == 2.0
