@@ -6,5 +6,5 @@ class Division(Calculation):
 
         result = 1.0
         for value in self.values:
-            result = result / value
+            result =  value / result
         return result
